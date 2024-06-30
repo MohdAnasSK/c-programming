@@ -3,7 +3,16 @@
 void main()
 {
 clrscr();
-printf("mohd anas shaikh");
+
+int b,h,Area;
+
+printf("Enter the value for b & h :");
+
+scanf("%d%d",%b,%h);
+
+Area= b * h / 2 ;
+
+printf("\n=%d",Area);
 
 getch();
 
