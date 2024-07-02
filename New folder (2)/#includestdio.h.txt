@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float c,k,f;
+clrscr();
+prinf("\n Enter Temprtature In Fahreheit : ");
+scanf("%f",&f);
+c=0.55*(f-32);
+k=2733.15+c;
+printf("\n\n clecius=%f",C);
+printf("\n\n Kelvin=%f",K);
+getch();
+}
