@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+voids main()
+{
+char name [10];
+int m1,m2,m3,total,per;
+clrscr();
+
+printf("Enter your name :");
+scanf("%s",&name);
+printf("Enter three subject marks :");
+scanf("%d%d%d",&m1,&m2,&m3);
+total=m1+m2+m3;
+per=total/3;
+printf("\nname =%s\ntotal=%d and per=%d",name,total,per);
+getch();
+}
