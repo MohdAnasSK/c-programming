@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[10],i,count=0;
+clrscr();
+printf("\nEnter 10 aaray elements :\n");
+for(i=0;i<10;i++)
+scanf("%d",&a[i]);
+for(i=0;i<10;i++)
+{
+if(a[i]%2==0)
+count++;
+}
+printf("\ntotal number of even number in the given aaray are  :%d",count);
+getch();
+}
